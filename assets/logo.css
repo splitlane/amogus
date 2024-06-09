@@ -1,0 +1,27 @@
+
+
+/* https://pragmaticpineapple.com/smoothly-reverting-css-animations/ */
+
+.logo {
+    transition: transform 0.5s ease-in-out;
+}
+
+.logo:hover {
+    transform: rotate(180deg);
+}
+
+/* .logo:hover {
+    filter: brightness(90%);
+    animation: 1s r;
+    cursor: pointer;
+}
+
+@keyframes r {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+} */
